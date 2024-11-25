@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+}
+.login{
+    margin: 0px;
+    display: flex;
+    font-family: roboto;
+    height: 100vh;
+}
+.section1{
+    width: 60%;
+    background: url("../../assets/img1.png") no-repeat;
+    background-size: cover;
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 25px;
+    .titulo3{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+}
+.section2{
+    width: 40%;
+    padding: 6%;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .form{
+        margin-top: 80px;
+        width: 80%;
+        form{
+            width: 100%;
+            p{
+                font-size: 13px;
+            }
+            .pass{
+                display: flex;
+            }
+            input{
+                width: 92%;
+                margin-left: 10px;
+                margin-bottom: 5px;
+                padding: 5px;
+            }
+            .inputText{
+                border: 1px solid #D2D2D2;
+                border-radius: 15px;
+            }
+            .record{
+                margin-top: 30px;
+                margin-bottom: 40px;
+                color: #000000;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 13px;
+                input{
+                    width: 10%;
+                    cursor: pointer;
+                }
+            }
+            .button{
+                background: #3737EC;
+                color: #FFFFFF;
+                width: 100%;
+                border-radius: 50px;
+                border: 0px;
+                padding: 5px;
+                cursor: pointer;
+            }
+            .labels{
+                display: flex;
+                color: #989898;
+                justify-content:space-between;
+                margin-top: 20px;
+                .bot{
+                    cursor: pointer;
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+}
