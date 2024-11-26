@@ -37,19 +37,36 @@ body{
             width: 100%;
             p{
                 font-size: 13px;
+                margin-top: 5px;
             }
             .pass{
                 display: flex;
+            }
+            .input{
+                border: none;
+            }
+            .input:focus-visible{
+                border: none;
             }
             input{
                 width: 92%;
                 margin-left: 10px;
                 margin-bottom: 5px;
-                padding: 5px;
             }
             .inputText{
                 border: 1px solid #D2D2D2;
                 border-radius: 15px;
+                padding: 5px;
+                .iconPass{
+                    padding: 10px;
+                    width: 12%;
+                    cursor: pointer;
+                }
+                .active{
+                    .visible{
+                        display: none;
+                    }
+                }
             }
             .record{
                 margin-top: 30px;

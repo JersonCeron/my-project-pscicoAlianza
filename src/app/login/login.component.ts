@@ -11,5 +11,12 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
+  view(){
+    const pass = document.getElementById('pass');
+    console.log(pass.classList);
+    if (pass.classList.contains('active')){
 
+    }
+  }
 }
